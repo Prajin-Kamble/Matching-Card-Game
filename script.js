@@ -55,7 +55,7 @@ async function shuffleCard(){
             card.classList.remove("flip");
             
             let imgTag = card.querySelector("img");
-            imgTag.src = `/Images/img${arr[i]}.png`;
+            imgTag.src = `https://prajin-kamble.github.io/Matching-Card-Game/Images/img${arr[i]}.png`;
             card.addEventListener("click",flipCard);
         })
 
